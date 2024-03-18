@@ -1,0 +1,20 @@
+#mad libs game
+# create a mad libs that asks the user to input words into the mad libs
+
+# inputs: 1. an input to the user and within the input is the text that the user  will try to rhyme with
+# outputs: madlibs words with the users choices
+# 2. get the users words of choice to print out later for the madlib
+
+def madlibs():
+   print("Madlibs game")
+   Adjective = input("Adjective  :  ")
+   Foods = input("Foods   :  ")
+   Animal = input("Animal   :  ")
+   Place = input("A place   :  ")
+
+   words = (f"there was a time in the {Adjective} and there was lots of {Foods} and a lot of {Animal} and the  beautiful place is  {Place}")
+   print(words)
+
+madlibs()
+
+
